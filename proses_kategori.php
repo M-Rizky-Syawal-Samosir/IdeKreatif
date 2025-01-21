@@ -20,7 +20,7 @@ if (isset($_POST['simpan'])) {
     if ($esec) {
         $_SESSION['notification'] = [
             'type' => 'primary', // jenis notifikasi (contoh: primary untuk keberhasilan)
-            'message' => 'Kategori berhasil ditambahkan!'
+            'message' => 'Kategori berhasil ditambahkan!'`
         ];
     } else {
         $_SESSION['notfication'] = [
