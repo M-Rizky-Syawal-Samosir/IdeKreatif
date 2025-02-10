@@ -15,10 +15,10 @@ if (isset($_POST['simpan'])) {
     $query ="INSERT INTO categories (category_name) VALUES 
     ('$category_name)";
     $exec = mysqlo_query($conn, $query);
-
+z
     // Menyimpan notifikasi berhasil atau gagal ke dalam session
     if ($esec) {
-        $_SESSION['notification'] = [
+        $_SESSION['notification'] = 
             'type' => 'primary', // jenis notifikasi (contoh: primary untuk keberhasilan)
             'message' => 'Kategori berhasil ditambahkan!'`
         ];
